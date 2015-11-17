@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body {
+	margin: 3%;
+	font-size: 14px;
+	line-height: 2;
+	color: #666;
+	font-family: 'メイリオ', sans-serif;
+}
+
+dl {
+	page-break-inside: avoid;
+}
+
+dt {
+	margin-top: 3em;
+	padding-top: 1em;
+	border-top: 1px solid #ccc;
+}
+
+dd {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.error {
+	font-weight: bold;
+	color: red;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 12px;
+}
